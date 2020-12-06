@@ -1,0 +1,117 @@
+#window {
+  width: 60vh;
+  height: 60vh;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgb(166, 160, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(166, 160, 218, 1) 0%,
+    rgba(252, 171, 205, 1) 81%
+  );
+  border-radius: 50%;
+  border: 0px solid #070e29;
+  box-shadow: 0px 0px 15px 7px rgba(73, 73, 73, 0.267);
+  overflow: hidden;
+  z-index: 1;
+}
+.window__Shadow {
+  width: 50%;
+  height: 100%;
+  background-color: #2f2f2f25;
+  /* background: rgb(255, 255, 255); */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(67, 0, 77, 0.322) 100%
+  );
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+
+.cloud {
+  position: absolute;
+}
+.cloud:first-child {
+  width: 8vh;
+  height: 4vh;
+  top: 5%;
+
+  animation: journet-contentsMove 4s infinite linear;
+  animation-delay: -1.9s;
+}
+.cloud:nth-child(2) {
+  width: 15vh;
+  height: 3vh;
+  top: 27%;
+
+  animation: journet-contentsMove 6s infinite linear;
+  animation-delay: -3.2s;
+}
+.cloud:nth-child(3) {
+  width: 12vh;
+  height: 5vh;
+  top: 50%;
+
+  animation: journet-contentsMove 3s infinite linear;
+  animation-delay: -0.9s;
+}
+.cloud:nth-child(4) {
+  width: 8vh;
+  height: 3vh;
+  top: 84%;
+
+  animation: journet-contentsMove 7s infinite linear;
+  animation-delay: -1.5s;
+}
+.cloud:nth-child(5) {
+  width: 14vh;
+  height: 3vh;
+  top: 90%;
+
+  animation: journet-contentsMove 5s infinite linear;
+  animation-delay: -0.2s;
+}
+.cloud:nth-child(6) {
+  width: 14vh;
+  height: 3vh;
+  top: 65%;
+
+  animation: journet-contentsMove 5s infinite linear;
+  animation-delay: -0.2s;
+}
+
+@keyframes journet-contentsMove {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -75%;
+  }
+}
+
+@keyframes housemove {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -90%;
+  }
+}
+
+.window-circle__wrapper {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+}
+.window-circle:first-child {
+  width: 58vh;
+  height: 58vh;
+  background-color: rgba(166, 160, 218, 1);
+}

@@ -1,0 +1,53 @@
+#curtain__hover {
+  width: 40vh;
+  height: 40vh;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.curtain {
+  width: 100vw;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+.curtain__shadow {
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(255, 255, 255, 0) 22%,
+    rgba(255, 255, 255, 0) 78%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  z-index: 15;
+  top: 0%;
+}
+.curtain img {
+  position: relative;
+  width: 52%;
+  height: 120vh;
+}
+.curtain img:nth-child(1) {
+  left: 1%;
+  transition: 1s ease-in-out;
+}
+
+.curtain img:nth-child(2) {
+  right: 1%;
+  transition: 1s ease-in-out;
+}

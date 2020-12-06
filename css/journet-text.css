@@ -1,0 +1,126 @@
+.journetText__wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 120vh;
+  opacity: 0;
+  z-index: 14;
+  top: 0%;
+  left: 0.2%;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  padding: 1.2% 2%;
+}
+
+.journetText__title-wrapper {
+  position: absolute;
+  top: 5%;
+}
+.journetText__title {
+  height: 10vh;
+  font-size: 5.7vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-top: 2%;
+  text-shadow: 2px 2px 2px var(--textshadow-color);
+}
+.journetText__title-bar {
+  width: 21.2vw;
+  height: 1.3vh;
+  background-color: var(--text-color);
+  position: absolute;
+  left: 0%;
+  top: 1%;
+  box-shadow: 2px 2px 2px var(--textshadow-color);
+}
+
+.journetText__leftUp-wrapper {
+  position: absolute;
+  top: 20%;
+}
+.journetText__leftUp {
+  width: 22vw;
+  height: 5vh;
+  font-size: 1vw;
+  font-family: "Playfair Display", serif;
+  text-align: start;
+
+  font-weight: 500;
+  color: var(--maintext-color);
+  line-height: 130%;
+}
+
+.journetText__leftDown-wrapper {
+  position: absolute;
+  top: 63%;
+}
+.journetText__leftDown {
+  width: 22vw;
+  height: 5vh;
+  font-size: 1vw;
+  font-family: "Playfair Display", serif;
+  text-align: start;
+
+  font-weight: 500;
+  color: var(--maintext-color);
+  line-height: 130%;
+}
+.journetText__leftDown-subTitle {
+  width: 22vw;
+  height: 5vh;
+  font-size: 1.2vw;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  text-align: start;
+
+  font-weight: 900;
+  color: black;
+  line-height: 130%;
+  margin-bottom: 3.5%;
+}
+
+.journetText__rightUp-wrapper {
+  position: absolute;
+  top: 20%;
+  right: 6.3%;
+}
+.journetText__rightUp {
+  width: 22vw;
+  height: 5vh;
+  font-size: 1vw;
+  font-family: "Playfair Display", serif;
+  text-align: end;
+
+  font-weight: 500;
+  color: var(--maintext-color);
+  line-height: 130%;
+}
+.journetText__rightDown-wrapper {
+  position: absolute;
+  top: 63%;
+  right: 6.3%;
+}
+.journetText__rightDown {
+  width: 22vw;
+  height: 5vh;
+  font-size: 1vw;
+  font-family: "Playfair Display", serif;
+  text-align: end;
+
+  font-weight: 500;
+  color: var(--maintext-color);
+  line-height: 130%;
+}
+.journetText__rightDown-subTitle {
+  width: 22vw;
+  height: 5vh;
+  font-size: 1.2vw;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  text-align: end;
+  right: 6.3%;
+  font-weight: 900;
+  color: black;
+  line-height: 130%;
+  margin-bottom: 3.5%;
+}
